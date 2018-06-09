@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+/* Fonte do titulo no Header */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+header {
+    background-color: rgb(253, 253, 95);
+    box-shadow: 4px 8px 16px 2px rgba(0, 0, 0, 0.2);
+}
+
+header > h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    padding: 8px;
+    color: rgb(99, 94, 69);
+    text-shadow: 4px 3px rgba(0, 0, 0, 0.1);
+}
